@@ -7,7 +7,6 @@ class Basmat < Formula
   sha256 "9f3bda4550fe8aeb0b3de1dd452dac086676cceb97b04222763ff2a4fec169f9"
   def install
     system "./configure", "--prefix=#{prefix}", "--disable-dependency-tracking"
-    system "make"
     system "make", "install"
   end
   test do
