@@ -2,4 +2,4 @@
 
 Homebrew formula for mathematics
 
- brew tap kyodaisuu/math
+    brew tap kyodaisuu/math
