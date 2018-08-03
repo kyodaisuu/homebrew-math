@@ -8,6 +8,6 @@ Feel free to send pull request.
 
 ## List of formula
 
-- basmat - Bashicu matrix calculator ([web](https://github.com/kyodaisuu/basmat))
+- basmat - Bashicu matrix calculator ([web](https://kyodaisuu.github.io/basmat/))
 - msieve - Factor large integers ([web](https://sourceforge.net/projects/msieve/))
 - yabasic - Yet another BASIC ([web](http://www.yabasic.de/))
