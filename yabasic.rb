@@ -12,7 +12,7 @@ class Yabasic < Formula
   end
 
   test do
-    system "#{bin}/yabasic", "-execute", "\"print 1+1\""
+    system "#{bin}/yabasic", "-v"
   end
 
 end
