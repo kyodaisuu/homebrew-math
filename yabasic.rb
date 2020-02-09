@@ -7,7 +7,7 @@ class Yabasic < Formula
   sha256 "0287fca8bfb38005ba723e3615cfeae19e2625bec87a87bb01a02897a30706a9"
   def install
     ENV['CC'] = '/usr/bin/gcc -I/opt/X11/include'
-    system "./configure", "--prefix=#{prefix}"
+    system "./configure", "--prefix=#{prefix}", "--disable-use-ffi"
     system "make", "install"
   end
 
